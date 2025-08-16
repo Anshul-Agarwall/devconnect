@@ -1,0 +1,11 @@
+/* index.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-image: url("./images/spices/background.jpg");
+  background-size: cover;       /* makes it fill the screen */
+  background-position: center;  /* keeps it centered */
+  background-attachment: fixed; /* parallax effect */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
