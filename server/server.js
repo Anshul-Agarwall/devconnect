@@ -14,6 +14,12 @@ app.use(express.json());
 const contactRoutes = require("./routes/contact");
 app.use("/api/contact", contactRoutes);
 
+
+// Routes
+const validateRoutes = require("./routes/validate");
+app.use("/api/validate", validateRoutes);
+
+
 // Connect to MongoDB
 mongoose
   .connect(process.env.MONGO_URI, {
