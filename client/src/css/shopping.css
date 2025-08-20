@@ -1,0 +1,191 @@
+.shopping-page {
+  background-color: white;
+  background-image: url("../images/spices/shoppingbackground.jpg");
+  background-size: auto;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 10px;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* hide scrollbar */
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 200px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center; /* centers search bar */
+  margin: 40px 0;          /* gap above & below */
+}
+
+.search-bar {
+  margin-top: 20px;
+  width: 250px;         /* make it smaller */
+  padding: 8px 12px;
+  border-radius: 20px;  /* rounded corners */
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  position: absolute;   /* move it to the right */
+  top: 20px;
+  right: 30px;
+  background: white;
+  z-index: 1000;
+}
+
+.about-us-section{
+    background-color: #2F3792;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;  
+}
+.about-us-section p,
+.about-us-section ul, 
+.about-us-section li{
+    color: #FFF;
+    font-family: "sans-serif";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.800000011920929;
+    margin: 0px;
+}
+.about-us-section h3 {
+  font-family: "sans-serif";
+  font-weight: bold;
+  margin-top: 0.4rem;
+  color: #FFF;
+}
+
+/* === Banner / Slider Section === */
+.homeBanner {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.homeSlider {
+  width: 100%;
+}
+
+.homeSlider .eachImage {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.homeSlider .eachImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+/* Shop Now Button inside slider */
+.homeBannerButton {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.homeBannerButton a {
+  display: inline-block;
+  background: #ff6600;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 22px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.homeBannerButton a:hover {
+  background: #cc5200;
+}
+/* Hide default bar style */
+.slick-dots li button:before {
+  content: ''; /* remove the default dot */
+}
+
+/* Make them round dots */
+.slick-dots li {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+}
+
+.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.slick-dots li.slick-active button {
+  background: #ff6600;
+}
+.product-card img {
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+
+.homeTesti .titleH2 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+h1.titleH2, .titleH2 {
+    color: #000;
+    font-family: Mesmerize;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27.047px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.titleH2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.eachpara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+.eachpara p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

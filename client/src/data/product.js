@@ -18,7 +18,7 @@ const products = [
     stockQty: 450,
     rating: 4.7,
     reviews: 312,
-    image: "../images/spices/turmeric-powder.jpg",
+    image: require("../images/spices/turmeric-powder.jpg"),
     tags: ["haldi", "golden milk", "anti-inflammatory"]
   },
   {
@@ -39,7 +39,7 @@ const products = [
     stockQty: 380,
     rating: 4.6,
     reviews: 268,
-    image: "../images/spices/red-chili-powder.jpg",
+    image: require("../images/spices/red-chili-powder.jpg"),
     tags: ["lal mirch", "spicy", "fiery"]
   },
   {
@@ -60,7 +60,7 @@ const products = [
     stockQty: 240,
     rating: 4.8,
     reviews: 191,
-    image: "../images/spices/kashmiri-chili.jpg",
+    image: require("../images/spices/kashmiri-chili-powder.jpg"),
     tags: ["color", "tandoori", "mild"]
   },
   {
@@ -81,7 +81,7 @@ const products = [
     stockQty: 520,
     rating: 4.6,
     reviews: 155,
-    image: "../images/spices/cumin-seeds.jpg",
+    image: require("../images/spices/cumin-seeds.jpg"),
     tags: ["jeera", "tadka", "earthy"]
   },
   {
@@ -102,7 +102,7 @@ const products = [
     stockQty: 300,
     rating: 4.5,
     reviews: 117,
-    image: "/images/spices/cumin-powder.jpg",
+    image: require("../images/spices/cumin-powder.jpg"),
     tags: ["jeera", "aromatic"]
   },
   {
@@ -123,7 +123,7 @@ const products = [
     stockQty: 410,
     rating: 4.6,
     reviews: 132,
-    image: "/images/spices/coriander-seeds.jpg",
+    image: require("../images/spices/coriander-seeds.jpg"),
     tags: ["dhania", "citrusy"]
   },
   {
@@ -165,7 +165,7 @@ const products = [
     stockQty: 210,
     rating: 4.7,
     reviews: 178,
-    image: "/images/spices/black-pepper.jpg",
+    image: require("../images/spices/black-pepper.jpg"),
     tags: ["kali mirch", "pungent"]
   },
   {
